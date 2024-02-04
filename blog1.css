@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,900;1,100;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: montserrat;
+    font-family:sans-serif;
+    
+}
+body{
+    background: f1fbff;
+}
+.section-padding{
+    padding: 100px 20px;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 5;
+    justify-content: center;
+    
+}
+.carousel-caption p{
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 10%;
+    color: azure;
+   
+    z-index: inherit;
+   
+    background-position: right;
+    
+
+}
+.carousel-caption h1{
+    width: 60%;
+    margin: auto;
+    font-size: 48px;
+    line-height: 1.;
+    bottom: auto;
+    letter-spacing: 1px;
+    margin-bottom: 10%;
+   justify-content: center;
+    position: relative;
+    text-transform: uppercase;
+    font-family:fantasy;
+   height: 40vh;
+    z-index: inherit;
+   
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+}
+.navbar-light .navbar-brand{
+    color:black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color:chartreuse;
+}
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+/* *********** responsive Css ******************/
+@media only screen and(min-width:768px) and (max-width:991px){
+    .carousel-caption{
+   bottom: 390px;     
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption p{
+        font-size: 25px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption h1{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+}
+
+.container h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:dodgerblue;
+    
+}
+.container h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.container h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    color: gray;
+}
+.button{
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background: dodgerblue;
+    border-radius: 1.0rem;
+}
+.number{
+    width: 100%;
+    height: 15vh;
+   /* background: linear-gradient(45deg, #410358, #4700bc);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color: #383838;
+    padding: 10px 40px;
+    border-radius: 6px;
+}
+.pagination ul{
+    margin: 20px 30px;
+}
+.pagination ul li{
+    display: inline-block;
+    margin: 0 10px;
+   
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 45px;
+    cursor: pointer;
+}
+.pagination ul li.active{
+    color: #fff;
+    background-image: linear-gradient(#ff4568, #ff4568);
+    background-repeat: no-repeat;   
+}
+.btn1, .btn2{
+    display: inline-flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #383838;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+i{
+    margin-left: 15px;
+    transform: rotate(180deg);
+    width: 60px;
+}

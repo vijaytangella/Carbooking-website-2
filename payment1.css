@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding: 10px
+   
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:rgb(114, 88, 88);
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:left;
+    height: 100vh;
+}
+.container {
+    background-color:lightyellow;
+    padding: 20px;
+    border-radius: 50px;
+    width: 1500px;
+}
+.h1 h2{
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-decoration:overline;
+    text-decoration:underline;
+}
+.h1 p{
+    font-size:13px;
+}
+.container button {
+    background-color:deepskyblue;
+    color:Black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+    padding:20px;
+    font-weight: bolder;
+   font-size:13px;
+}
+
+.container button:hover {
+    background-color:goldenrod;
+}
+.proceed button{
+    border-radius:10px ;
+    width: 100%;
+    font-size: 20px;
+   
+
+}
+.apply input{
+    width:90%;
+}
+.container1 {
+    background-color:azure;
+    padding: 10px;
+    border-radius: 20px;
+    width: 680px;
+    height: 300px;
+    justify-content: first baseline;
+    transform: translate(+40%, -50%);
+    
+}
+.container1 header{
+    background-color:dodgerblue;
+    border-radius: 10px;
+}
+.container2 header{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.container2{
+    background-color:azure;
+    border-radius: 20px;
+    width: 700px;
+    height: 250px;
+    padding: 10px;
+    justify-content: first baseline;
+    transform: translate(-10%,70%);
+    transform:translate(-60%,55%);
+    position: relative;
+   
+   
+}
+.container2 header{
+    background-color:dodgerblue;
+    border-radius: 10px;
+
+}
+.container2 header button{
+    background-color:darkorchid;
+    font-weight: bolder;
+}
+.container2 header button:hover{
+    background-color:lightpink;
+}
